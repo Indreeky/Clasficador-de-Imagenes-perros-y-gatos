@@ -1,3 +1,46 @@
 __pycache__
 .env
 .learn
+
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore Kaggle config file
+kaggle.json
+
+
+# Ignore IDE/editor files
+.vscode/
+.idea/
+
+# Ignore docker files
+docker-compose.yml
+Dockerfile
+
+# Ignore Gitpod configuration files
+.gitpod.yml
+
+# Archivos de datos grandes
+data/raw/
+data/interim/
+data/processed/
+
+# Modelos entrenados
+models/*.h5
+models/*.keras
+
+# Archivos temporales
+*.log
+*.tmp
+__pycache__/
+*.pyc
+.DS_Store
+
+# Archivos de salida
+output/
+results/
